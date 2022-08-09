@@ -4,7 +4,11 @@ export default function Travel(props) {
   console.log(props.imageUrl);
   return (
     <div className="travel-card">
-      <img src={props.imageUrl} className="card--image" />
+      <img
+        src={props.imageUrl}
+        className="card--image"
+        alt="Landscape Images"
+      />
       <div className="card--content">
         <div className="card--header">
           <h3 className="card--location">{props.location.toUpperCase()}</h3>
