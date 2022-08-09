@@ -1,4 +1,4 @@
-travelData = [
+const travelData = [
   {
     key: 1,
     title: "Mount Fuji",
